@@ -1,0 +1,1445 @@
+/*Mobile and Tablet*/
+@media only screen and (max-width: 1000px)
+{
+    /*Mobile*/
+    @media only screen and (max-width: 500px) {
+
+        .title {
+            font-size: 200%;
+        }
+
+        .headers {
+            font-size: 160%;
+        }
+
+        .mainText {
+            font-size: 85%;
+        }
+
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: #C09F80;
+            height:50%;
+            width: 100%;
+            border:1px solid black;
+        }
+
+        .header h1 {
+            font-family: 'Cinzel', serif;
+            text-align: center;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 40%;
+        }
+
+        .TopRow {
+            width: 100%;
+            height: 150%;
+        }
+
+        .What {
+            width: 100%;
+            height: 33.3333%;
+            display: inline-block;
+            float: left;
+            background-color: white;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+
+        }
+
+        .What p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .Scanner {
+            width: 100%;
+            height: 33.33333%;
+            display: inline-block;
+            float: left;
+            background-color: #BBDEFB;
+        }
+
+        .Scanner h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .Scanner p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .Parser {
+            width: 100%;
+            height: 33.33%;
+            display: inline-block;
+            float: left;
+            background-color: #64B5F6;
+        }
+
+        .Parser h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .Parser p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .BottomRow {
+            width: 100%;
+            height: 150%;
+        }
+
+        .NA {
+            width: 100%;
+            height: 33.3333%;
+            display: inline-block;
+            float: right;
+            background-color: #2196F3;
+        }
+
+        .NA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .NA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .SA {
+            width: 100%;
+            height: 33.3333%;
+            display: inline-block;
+            float: right;
+            background-color: #1976D2;
+        }
+
+        .SA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .SA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .ICG {
+            width: 100%;
+            height: 33.3333%;
+            display: inline-block;
+            float: right;
+            background-color: #0D47A1;
+        }
+
+        .ICG h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .ICG p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        @media only screen and (min-height: 650px) {
+            .mainText {
+                font-size: 100%;
+            }
+
+        }
+
+    }
+
+    /*Tablets*/
+   @media only screen and (min-width: 500px) {
+
+        .title {
+            font-size: 300%;
+        }
+
+        .headers {
+            font-size: 300%;
+        }
+
+        .mainText {
+            font-size: 135%;
+        }
+
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: #C09F80;
+            height:50%;
+            width: 100%;
+            border:1px solid black;
+        }
+
+        .header h1 {
+            font-family: 'Cinzel', serif;
+            text-align: center;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 40%;
+        }
+
+        .TopRow {
+            width: 100%;
+            height: 150%;
+        }
+
+        .What {
+            width: 100%;
+            height: 33.3333%;
+            display: inline-block;
+            float: left;
+            background-color: white;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+
+        }
+
+        .What p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .Scanner {
+            width: 100%;
+            height: 33.33333%;
+            display: inline-block;
+            float: left;
+            background-color: #BBDEFB;
+        }
+
+        .Scanner h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .Scanner p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .Parser {
+            width: 100%;
+            height: 33.33%;
+            display: inline-block;
+            float: left;
+            background-color: #64B5F6;
+        }
+
+        .Parser h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .Parser p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .BottomRow {
+            width: 100%;
+            height: 150%;
+        }
+
+        .NA {
+            width: 100%;
+            height: 33.3333%;
+            display: inline-block;
+            float: right;
+            background-color: #2196F3;
+        }
+
+        .NA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .NA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .SA {
+            width: 100%;
+            height: 33.3333%;
+            display: inline-block;
+            float: right;
+            background-color: #1976D2;
+        }
+
+        .SA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .SA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .ICG {
+            width: 100%;
+            height: 33.3333%;
+            display: inline-block;
+            float: right;
+            background-color: #0D47A1;
+        }
+
+        .ICG h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .ICG p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 10%;
+            line-height: 190%;
+            width: 65%;
+        }
+    }
+}
+
+/*Laptops*/
+@media only screen and (min-width: 1000px) {
+
+    @media only screen and (min-width: 1000px) {
+
+        .title {
+            font-size: 190%;
+
+        }
+
+        .headers {
+            font-size: 170%;
+        }
+
+        .mainText {
+            font-size: 90%;
+        }
+
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: #C09F80;
+            height:10%;
+            width: 100%;
+            border:1px solid black;
+        }
+        .header h1 {
+            font-family: 'Cinzel', serif;
+            text-align: center;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 25%;
+        }
+
+        .TopRow {
+            width: 100%;
+            height: 45%;
+        }
+
+        .What {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: white;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+
+        }
+
+        .What p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .Scanner {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: #BBDEFB;
+        }
+
+        .Scanner h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .Scanner p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .Parser {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: #64B5F6;
+        }
+
+        .Parser h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .Parser p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .BottomRow {
+            width: 100%;
+            height: 45%;
+        }
+
+        .NA {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #2196F3;
+        }
+
+        .NA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .NA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .SA {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #1976D2;
+        }
+
+        .SA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .SA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .ICG {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #0D47A1;
+        }
+
+        .ICG h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .ICG p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+    }
+
+    @media only screen and (min-width: 1250px) {
+
+        .title {
+            font-size: 200%;
+
+        }
+
+        .headers {
+            font-size: 200%;
+        }
+
+        .mainText {
+            font-size: 90%;
+        }
+
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: #C09F80;
+            height:10%;
+            width: 100%;
+            border:1px solid black;
+        }
+        .header h1 {
+            font-family: 'Cinzel', serif;
+            text-align: center;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 25%;
+        }
+
+        .TopRow {
+            width: 100%;
+            height: 45%;
+        }
+
+        .What {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: white;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+
+        }
+
+        .What p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .Scanner {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: #BBDEFB;
+        }
+
+        .Scanner h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .Scanner p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .Parser {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: #64B5F6;
+        }
+
+        .Parser h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .Parser p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .BottomRow {
+            width: 100%;
+            height: 45%;
+        }
+
+        .NA {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #2196F3;
+        }
+
+        .NA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .NA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .SA {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #1976D2;
+        }
+
+        .SA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .SA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .ICG {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #0D47A1;
+        }
+
+        .ICG h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .ICG p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+    }
+
+    @media only screen and (min-width: 1350px) {
+
+
+        .title {
+            font-size: 210%;
+
+        }
+
+        .headers {
+            font-size: 210%;
+        }
+
+        .mainText {
+            font-size: 100%;
+        }
+
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: #C09F80;
+            height:10%;
+            width: 100%;
+            border:1px solid black;
+        }
+        .header h1 {
+            font-family: 'Cinzel', serif;
+            text-align: center;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 25%;
+        }
+
+        .TopRow {
+            width: 100%;
+            height: 45%;
+        }
+
+        .What {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: white;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+
+        }
+
+        .What p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .Scanner {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: #BBDEFB;
+        }
+
+        .Scanner h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .Scanner p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .Parser {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: #64B5F6;
+        }
+
+        .Parser h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .Parser p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .BottomRow {
+            width: 100%;
+            height: 45%;
+        }
+
+        .NA {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #2196F3;
+        }
+
+        .NA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .NA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .SA {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #1976D2;
+        }
+
+        .SA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .SA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .ICG {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #0D47A1;
+        }
+
+        .ICG h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .ICG p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+    }
+
+    @media only screen and (min-width: 1580px) {
+
+
+        .title {
+            font-size: 230%;
+
+        }
+
+        .headers {
+            font-size: 220%;
+        }
+
+        .mainText {
+            font-size: 125%;
+        }
+
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: #C09F80;
+            height:10%;
+            width: 100%;
+            border:1px solid black;
+        }
+        .header h1 {
+            font-family: 'Cinzel', serif;
+            text-align: center;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 25%;
+        }
+
+        .TopRow {
+            width: 100%;
+            height: 45%;
+        }
+
+        .What {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: white;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+
+        }
+
+        .What p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .Scanner {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: #BBDEFB;
+        }
+
+        .Scanner h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .Scanner p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .Parser {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: #64B5F6;
+        }
+
+        .Parser h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .Parser p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .BottomRow {
+            width: 100%;
+            height: 45%;
+        }
+
+        .NA {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #2196F3;
+        }
+
+        .NA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .NA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .SA {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #1976D2;
+        }
+
+        .SA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .SA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .ICG {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #0D47A1;
+        }
+
+        .ICG h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .ICG p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+    }
+
+    @media only screen and (min-width: 1870px) {
+
+        .title {
+            font-size: 250%;
+
+        }
+
+        .headers {
+            font-size: 240%;
+        }
+
+        .mainText {
+            font-size: 150%;
+        }
+
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: #C09F80;
+            height:10%;
+            width: 100%;
+            border:1px solid black;
+        }
+        .header h1 {
+            font-family: 'Cinzel', serif;
+            text-align: center;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 25%;
+        }
+
+        .TopRow {
+            width: 100%;
+            height: 45%;
+        }
+
+        .What {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: white;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+
+        }
+
+        .What p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .Scanner {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: #BBDEFB;
+        }
+
+        .Scanner h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .Scanner p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .Parser {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: left;
+            background-color: #64B5F6;
+        }
+
+        .Parser h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .Parser p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+        .BottomRow {
+            width: 100%;
+            height: 45%;
+        }
+
+        .NA {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #2196F3;
+        }
+
+        .NA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .NA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .SA {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #1976D2;
+        }
+
+        .SA h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .SA p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+
+        .ICG {
+            width: 33.3333%;
+            height: 100%;
+            display: inline;
+            float: right;
+            background-color: #0D47A1;
+        }
+
+        .ICG h1 {
+            font-family: 'Karla', sans-serif;
+            text-align: center;
+            position: relative;
+            top: 8%;
+        }
+
+        .ICG p {
+            font-family: 'Montserrat', sans-serif;
+            position: relative;
+            left: 17%;
+            top: 6%;
+            line-height: 190%;
+            width: 65%;
+        }
+
+    }
+}
