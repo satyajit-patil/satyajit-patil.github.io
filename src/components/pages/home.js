@@ -194,7 +194,7 @@ class Home extends Component {
                                 <p class="contactInfo">Cell: (608) 622-0050 </p>
                             </div>
                             <div class="Copyright">
-                                <h1>&copy; 2018 SATYAJIT PATIL ALL RIGHTS RESERVED</h1>
+                                <h1>&copy; 2019 SATYAJIT PATIL ALL RIGHTS RESERVED</h1>
                             </div>
                         </div>
                     </section>
