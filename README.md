@@ -1,3 +1,9 @@
+The branch 'production' is the source branch of this project. The website should be deployed from this branch by...
+1) Set 'Homepage' and scripts in package.json
+2) npm install --save gh-pages
+3) npm run deploy
+4) add custom domain 'www.satyajitpatil.com' on github page
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
