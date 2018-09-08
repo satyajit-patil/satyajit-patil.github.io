@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Moo Programming Language</title>
+        <link rel="stylesheet" href="/css/Moostyle.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <div class="header">
+            <h1 class="title">Moo: A Subset of C++</h1>
+        </div>
+
+        <div class="TopRow">
+            <div class="What">
+                <h1 class="headers">What is Moo?</h1>
+                <p class="mainText">Moo is a programming language created by building the front end and back end of a compiler.</p>
+            </div>
+            <div class="Scanner">
+                <h1 class="headers">1. Scanner</h1>
+                <p class="mainText">The Scanner was created using Jlex. The main job of the scanner is to identify and return the next token.</p>
+            </div>
+            <div class="Parser">
+                <h1 class="headers">2. Parser</h1>
+                <p class="mainText">The Parser was created using Java CUP. The parser will find syntax errors and, for syntactically correct programs, it will build an abstract-syntax tree (AST) representation of the program.</p>
+            </div>
+        </div>
+
+        <div class="BottomRow">
+            <div class="NA">
+                <h1 class="headers">3. Name Analyzer</h1>
+                <p class="mainText">Inserted methods to analyze the names of all nodes in the AST. The Name Analyzer will catch any static semantic errors.</p>
+            </div>
+            <div class="SA">
+                <h1 class="headers">4. Semantic Analyzer</h1>
+                <p class="mainText">Inserted methods to check the 'types' of all nodes in the AST. The Semantic Analyzer is a type checker.</p>
+            </div>
+            <div class="ICG">
+                <h1 class="headers">5. Intermediate Code Generator</h1>
+                <p class="mainText">The Intermediate Code Generator generated MIPS assembly code for moo programs represented as abstract-syntax trees.</p>
+            </div>
+        </div>
+    </body>
+</html>

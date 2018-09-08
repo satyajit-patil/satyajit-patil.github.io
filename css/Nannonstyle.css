@@ -1,0 +1,1232 @@
+/*Mobile and Tablet*/
+@media only screen and (max-width: 1000px)
+{
+    /*All Mobile Devices*/
+    @media only screen and (max-width: 500px) {
+        .title {
+            font-size: 200%;
+        }
+
+        .mainText, .link {
+            font-size: 80%;
+        }
+
+        .headers {
+            font-size: 200%;
+        }
+
+        html, body {
+            padding: 0 0;
+            margin: 0 0;
+            overflow-x: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0 0;
+            margin: 0 0;
+        }
+
+        .header{
+            background-color: white;
+            height:50%;
+            width: 100%;
+            position: relative;
+            text-align: center;
+        }
+
+        .header h1 {
+            display: inline-block;
+            font-family: 'Cinzel', serif;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 35%;
+        }
+
+        .header a {
+            display: inline-block;
+            float: right;
+            position: relative;
+            right: 2%;
+            top: 90%;
+        }
+
+        .Nannonimages {
+            display: none;
+            width: 100%;
+            height: 150%;
+            background-color: #C09F80;
+        }
+
+        .Nannontext {
+            width: 100%;
+            height: 150%;
+        }
+
+
+        .What {
+            height: 33%;
+            width: 100%;
+            background-color: #4871F9;
+
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            color: black;
+            text-align: center;
+            position: relative;
+            top: 10%;
+            left: 4%;
+        }
+
+        .What p {
+            position: relative;
+            top: 8%;
+            left: 15%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+            width: 75%;
+        }
+
+        .Players {
+            height: 25%;
+            width: 100%;
+            float: left;
+            display: inline-block;
+        }
+
+        .Players h1 {
+            font-family: 'Karla', sans-serif;
+            color: black;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .Players ul {
+            position: relative;
+            top: 8%;
+            left: 4%;
+            width: 75%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .Results {
+            height: 42%;
+            width: 100%;
+            float: left;
+            display: inline-block;
+            background-color: #4871F9;
+        }
+
+        .Results h1 {
+            font-family: 'Karla', sans-serif;
+            color: black;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .Results p {
+            position: relative;
+            top: 8%;
+            left: 15%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+            width: 75%;
+
+        }
+
+    }
+
+    /*All Tablet Devices*/
+   @media only screen and (min-width: 500px) {
+        .title {
+            font-size: 400%;
+        }
+
+        .mainText, .link {
+            font-size: 140%;
+        }
+
+        .headers {
+            font-size: 350%;
+        }
+
+        html, body {
+            padding: 0 0;
+            margin: 0 0;
+            overflow-x: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0 0;
+            margin: 0 0;
+        }
+
+        .header{
+            background-color: white;
+            height:50%;
+            width: 100%;
+            position: relative;
+            text-align: center;
+        }
+
+        .header h1 {
+            display: inline-block;
+            font-family: 'Cinzel', serif;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 35%;
+        }
+
+        .header a {
+            display: inline-block;
+            float: right;
+            position: relative;
+            right: 2%;
+            top: 90%;
+        }
+
+        .Nannonimages {
+            display: none;
+            width: 100%;
+            height: 150%;
+            background-color: #C09F80;
+        }
+
+        .Nannontext {
+            width: 100%;
+            height: 150%;
+        }
+
+
+        .What {
+            height: 33%;
+            width: 100%;
+            background-color: #4871F9;
+
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            color: black;
+            text-align: center;
+            position: relative;
+            top: 10%;
+            left: 4%;
+        }
+
+        .What p {
+            position: relative;
+            top: 8%;
+            left: 15%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+            width: 75%;
+        }
+
+        .Players {
+            height: 25%;
+            width: 100%;
+            float: left;
+            display: inline-block;
+        }
+
+        .Players h1 {
+            font-family: 'Karla', sans-serif;
+            color: black;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .Players ul {
+            position: relative;
+            top: 8%;
+            left: 4%;
+            width: 75%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .Results {
+            height: 42%;
+            width: 100%;
+            float: left;
+            display: inline-block;
+            background-color: #4871F9;
+        }
+
+        .Results h1 {
+            font-family: 'Karla', sans-serif;
+            color: black;
+            text-align: center;
+            position: relative;
+            top: 10%;
+        }
+
+        .Results p {
+            position: relative;
+            top: 8%;
+            left: 15%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+            width: 75%;
+
+        }
+
+    }
+
+}
+
+/*Laptops*/
+@media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1000px) {
+        .title {
+            font-size: 220%;
+        }
+
+        .mainText, .link {
+            font-size: 85%;
+        }
+
+        .headers {
+            font-size: 220%;
+        }
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: white;
+            height:9%;
+            width: 100%;
+            position: relative;
+            text-align: center;
+        }
+
+        .header h1 {
+            display: inline-block;
+            font-family: 'Cinzel', serif;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 25%;
+        }
+
+        .header a {
+            display: inline-block;
+            float: right;
+            position: relative;
+            right: 2%;
+            top: 20%;
+        }
+
+        .Nannonimages {
+            width: 100%;
+            height: 40%;
+            background-color: #C09F80;
+        }
+
+        .HCNB {
+            display: inline-block;
+            float: left;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .HCNB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+        .HCB {
+            display: inline-block;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .HCB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+        .NBB {
+            display: inline-block;
+            float: right;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .NBB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+
+        .Nannontext {
+            width: 100%;
+            height: 51%;
+            background-color: #D7CEC7;
+        }
+
+
+        .What {
+            height: 100%;
+            width: 33.3333%;
+            float: left;
+            display: inline-block;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+            left: 4%;
+
+        }
+
+        .What p {
+            position: relative;
+            top: 5%;
+            left: 15%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+            width: 75%;
+        }
+
+
+        .Players {
+            height: 100%;
+            width: 33.3333%;
+            display: inline-block;
+        }
+
+        .Players h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+
+        }
+
+        .Players ul {
+            position: relative;
+            top: 5%;
+            left: 4%;
+            width: 75%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .Results {
+            height: 100%;
+            width: 33.3333%;
+            float: right;
+            display: inline-block;
+        }
+
+        .Results h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+        }
+
+        .Results p {
+            position: relative;
+            top: 5%;
+            width: 90%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }   
+    }
+
+    @media only screen and (min-width: 1250px) {
+        .title {
+            font-size: 220%;
+        }
+
+        .mainText, .link {
+            font-size: 100%;
+        }
+
+        .headers {
+            font-size: 220%;
+        }
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: white;
+            height:9%;
+            width: 100%;
+            position: relative;
+            text-align: center;
+        }
+
+        .header h1 {
+            display: inline-block;
+            font-family: 'Cinzel', serif;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 25%;
+        }
+
+        .header a {
+            display: inline-block;
+            float: right;
+            position: relative;
+            right: 2%;
+            top: 20%;
+        }
+
+        .Nannonimages {
+            width: 100%;
+            height: 40%;
+            background-color: #C09F80;
+        }
+
+        .HCNB {
+            display: inline-block;
+            float: left;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .HCNB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+        .HCB {
+            display: inline-block;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .HCB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+        .NBB {
+            display: inline-block;
+            float: right;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .NBB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+
+        .Nannontext {
+            width: 100%;
+            height: 51%;
+            background-color: #D7CEC7;
+        }
+
+
+        .What {
+            height: 100%;
+            width: 33.3333%;
+            float: left;
+            display: inline-block;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+            left: 4%;
+
+        }
+
+        .What p {
+            position: relative;
+            top: 5%;
+            left: 15%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+            width: 75%;
+        }
+
+
+        .Players {
+            height: 100%;
+            width: 33.3333%;
+            display: inline-block;
+        }
+
+        .Players h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+
+        }
+
+        .Players ul {
+            position: relative;
+            top: 5%;
+            left: 4%;
+            width: 75%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .Results {
+            height: 100%;
+            width: 33.3333%;
+            float: right;
+            display: inline-block;
+        }
+
+        .Results h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+        }
+
+        .Results p {
+            position: relative;
+            top: 5%;
+            width: 90%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }   
+    }
+
+    @media only screen and (min-width: 1350px) {
+        .title {
+            font-size: 220%;
+        }
+
+        .mainText, .link {
+            font-size: 100%;
+        }
+
+        .headers {
+            font-size: 270%;
+        }
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: white;
+            height:9%;
+            width: 100%;
+            position: relative;
+            text-align: center;
+        }
+
+        .header h1 {
+            display: inline-block;
+            font-family: 'Cinzel', serif;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 25%;
+        }
+
+        .header a {
+            display: inline-block;
+            float: right;
+            position: relative;
+            right: 2%;
+            top: 20%;
+        }
+
+        .Nannonimages {
+            width: 100%;
+            height: 40%;
+            background-color: #C09F80;
+        }
+
+        .HCNB {
+            display: inline-block;
+            float: left;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .HCNB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+        .HCB {
+            display: inline-block;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .HCB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+        .NBB {
+            display: inline-block;
+            float: right;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .NBB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+
+        .Nannontext {
+            width: 100%;
+            height: 51%;
+            background-color: #D7CEC7;
+        }
+
+
+        .What {
+            height: 100%;
+            width: 33.3333%;
+            float: left;
+            display: inline-block;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+            left: 4%;
+
+        }
+
+        .What p {
+            position: relative;
+            top: 5%;
+            left: 15%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+            width: 75%;
+        }
+
+
+        .Players {
+            height: 100%;
+            width: 33.3333%;
+            display: inline-block;
+        }
+
+        .Players h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+
+        }
+
+        .Players ul {
+            position: relative;
+            top: 5%;
+            left: 4%;
+            width: 75%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .Results {
+            height: 100%;
+            width: 33.3333%;
+            float: right;
+            display: inline-block;
+        }
+
+        .Results h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+        }
+
+        .Results p {
+            position: relative;
+            top: 5%;
+            width: 90%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }   
+    }
+
+    @media only screen and (min-width: 1580px) {
+        .title {
+            font-size: 270%;
+        }
+
+        .mainText, .link {
+            font-size: 130%;
+        }
+
+        .headers {
+            font-size: 300%;
+        }
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: white;
+            height:9%;
+            width: 100%;
+            position: relative;
+            text-align: center;
+        }
+
+        .header h1 {
+            display: inline-block;
+            font-family: 'Cinzel', serif;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 25%;
+        }
+
+        .header a {
+            display: inline-block;
+            float: right;
+            position: relative;
+            right: 2%;
+            top: 20%;
+        }
+
+        .Nannonimages {
+            width: 100%;
+            height: 40%;
+            background-color: #C09F80;
+        }
+
+        .HCNB {
+            display: inline-block;
+            float: left;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .HCNB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+        .HCB {
+            display: inline-block;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .HCB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+        .NBB {
+            display: inline-block;
+            float: right;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .NBB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+
+        .Nannontext {
+            width: 100%;
+            height: 51%;
+            background-color: #D7CEC7;
+        }
+
+
+        .What {
+            height: 100%;
+            width: 33.3333%;
+            float: left;
+            display: inline-block;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+            left: 4%;
+
+        }
+
+        .What p {
+            position: relative;
+            top: 5%;
+            left: 15%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+            width: 75%;
+        }
+
+
+        .Players {
+            height: 100%;
+            width: 33.3333%;
+            display: inline-block;
+        }
+
+        .Players h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+
+        }
+
+        .Players ul {
+            position: relative;
+            top: 5%;
+            left: 4%;
+            width: 75%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .Results {
+            height: 100%;
+            width: 33.3333%;
+            float: right;
+            display: inline-block;
+        }
+
+        .Results h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+        }
+
+        .Results p {
+            position: relative;
+            top: 5%;
+            width: 90%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }   
+    }
+
+    @media only screen and (min-width: 1870px) {
+        .title {
+            font-size: 300%;
+        }
+
+        .mainText, .link {
+            font-size: 150%;
+        }
+
+        .headers {
+            font-size: 320%;
+        }
+
+        html, body {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            height: 100%; 
+            width: 100%;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        h1, h2 {
+            padding: 0;
+            margin: 0;
+        }
+
+        .header{
+            background-color: white;
+            height:9%;
+            width: 100%;
+            position: relative;
+            text-align: center;
+        }
+
+        .header h1 {
+            display: inline-block;
+            font-family: 'Cinzel', serif;
+            color: black;
+            position: relative;
+            height: 100%;
+            top: 25%;
+        }
+
+        .header a {
+            display: inline-block;
+            float: right;
+            position: relative;
+            right: 2%;
+            top: 20%;
+        }
+
+        .Nannonimages {
+            width: 100%;
+            height: 40%;
+            background-color: #C09F80;
+        }
+
+        .HCNB {
+            display: inline-block;
+            float: left;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .HCNB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+        .HCB {
+            display: inline-block;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .HCB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+        .NBB {
+            display: inline-block;
+            float: right;
+            width: 33.3333%;
+            height: 100%;
+            box-sizing: border-box;
+            border: 1px solid black;
+        }
+
+        .NBB img{
+            width: 80%;
+            height: 90%;
+            padding: 3% 10%;
+        }
+
+
+        .Nannontext {
+            width: 100%;
+            height: 51%;
+            background-color: #D7CEC7;
+        }
+
+
+        .What {
+            height: 100%;
+            width: 33.3333%;
+            float: left;
+            display: inline-block;
+        }
+
+        .What h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+            left: 4%;
+
+        }
+
+        .What p {
+            position: relative;
+            top: 5%;
+            left: 15%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+            width: 75%;
+        }
+
+
+        .Players {
+            height: 100%;
+            width: 33.3333%;
+            display: inline-block;
+        }
+
+        .Players h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+
+        }
+
+        .Players ul {
+            position: relative;
+            top: 5%;
+            left: 4%;
+            width: 75%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .Results {
+            height: 100%;
+            width: 33.3333%;
+            float: right;
+            display: inline-block;
+        }
+
+        .Results h1 {
+            font-family: 'Karla', sans-serif;
+            color: #76323F;
+            text-align: center;
+            position: relative;
+            top: 7%;
+        }
+
+        .Results p {
+            position: relative;
+            top: 5%;
+            width: 90%;
+            line-height: 190%;
+            font-family: 'Montserrat', sans-serif;
+        }   
+
+    }
+}
