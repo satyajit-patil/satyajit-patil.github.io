@@ -121,7 +121,7 @@ class Home extends Component {
                                 </div>
                                 <div class="AboutQuote">
                                     <img src={motivationFist} alt="Motivation Fist"/>
-                                    <p>I am currently developing a responsive keyboard that may reduce typographical errors and improve typing speed.</p>
+                                    <p>I am currently developing a responsive soft keyboard that may reduce typographical errors and improve typing speed.</p>
                                 </div>
                             </div>
                         </div>
