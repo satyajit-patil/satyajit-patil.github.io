@@ -288,6 +288,7 @@ span {
     position: relative;
     line-height: 1.2em;
     font-weight: bold;
+    text-align: center;
 }
 
 .AboutQuote {
@@ -329,14 +330,14 @@ span {
     word-spacing: 2em;
 }
 
-.IFSMBP, .NannonBP, .MooBP {
+.IFSMBP, .SIEBP, .MooBP {
     position: relative;
     height: 75%;
     width: 100%;
     text-align: center;
 }
 
-.IFSMbutton:after, .Nannonbutton:after, .Moobutton:after {
+.IFSMbutton:after, .SIEbutton:after, .Moobutton:after {
     font-family: 'Passion One', cursive;
     font-size: 120%;
     position: absolute;
@@ -352,15 +353,15 @@ span {
     content: ">>";
 }
 
-.IFSMbutton:hover, .Nannonbutton:hover, .Moobutton:hover {
+.IFSMbutton:hover, .SIEbutton:hover, .Moobutton:hover {
     background-color: #F22F22;
 }
 
-.IFSMbutton:active, .IFSMbutton:focus, .Nannonbutton:active, .Nannonbutton:focus, .Moobutton:active, .Moobutton:focus {
+.IFSMbutton:active, .IFSMbutton:focus, .SIEbutton:active, .SIEbutton:focus, .Moobutton:active, .Moobutton:focus {
     background-color: #B01B11;
 }
 
-.IFSMbutton:hover:after, .Nannonbutton:hover:after, .Moobutton:hover:after {
+.IFSMbutton:hover:after, .SIEbutton:hover:after, .Moobutton:hover:after {
     -webkit-animation: bounceright .3s alternate ease infinite;
     animation: bounceright .3s alternate ease infinite;
 }
@@ -399,26 +400,27 @@ span {
     text-decoration: none;
 }
 
-.Nannon {
+.SIE {
     height: 33.3333%;
+    background-image: url("./../../Assets/images/playstation.jpg");
     background-size: cover;
     text-align: center;
 }
 
-.Nannon h1 {
+.SIE h1 {
     font-family: 'Karla', sans-serif;
     position: relative;
     color: white;
 }
 
-.Nannon h2 {
+.SIE h2 {
     font-family: 'Karla', sans-serif;
     position: relative;
     color: white;
     font-style: italic;
 }
 
-.Nannonbutton {
+.SIEbutton {
     position: relative;
     font-family: 'Montserrat', sans-serif;
     border: none;
@@ -532,6 +534,14 @@ span {
     top: 10%;
     left: 35%;
     width: 12%;
+}
+
+.github {
+    display: inline-block;
+    position: relative;
+    top: 10%;
+    left: 45%;
+    width: 10%;
 }
 
 .contactName {
@@ -732,12 +742,9 @@ span {
             padding-bottom: 0.75em;
         }
         .WorkRight {
-            background-color: #4871F9;
+            background-color: black;
             height: 75%;
             width: 100%;
-        }
-        .Nannon {
-            background-color: #0F5F16;
         }
         .ContactContent {
             height: 200%;
@@ -817,15 +824,15 @@ span {
             .IFSM h2 {
                 font-size: 100%;
             }
-            .Nannon h1 {
-                font-size: 260%;
+            .SIE h1 {
+                font-size: 200%;
                 top: 25%;
             }
-            .Nannon h2 {
+            .SIE h2 {
                 font-size: 100%;
                 top: 25%;
             }
-            .Nannonbutton {
+            .SIEbutton {
                 top: 42%;
             }
             .Moo h1 {
@@ -846,7 +853,7 @@ span {
             .contactName {
                 font-size: 150%;
             }
-            .IFSMbutton, .Nannonbutton, .Moobutton {
+            .IFSMbutton, .SIEbutton, .Moobutton {
                 font-size: 68%;
                 padding: .8em 3.4em;
                 padding-right: 6.7em;
@@ -904,15 +911,15 @@ span {
             .IFSM h2 {
                 font-size: 100%;
             }
-            .Nannon h1 {
-                font-size: 260%;
+            .SIE h1 {
+                font-size: 200%;
                 top: 25%;
             }
-            .Nannon h2 {
+            .SIE h2 {
                 font-size: 100%;
                 top: 25%;
             }
-            .Nannonbutton {
+            .SIEbutton {
                 top: 42%;
             }
             .Moo h1 {
@@ -933,7 +940,7 @@ span {
             .contactName {
                 font-size: 185%;
             }
-            .IFSMbutton, .Nannonbutton, .Moobutton {
+            .IFSMbutton, .SIEbutton, .Moobutton {
                 font-size: 68%;
                 padding: .8em 3.4em;
                 padding-right: 6.7em;
@@ -996,15 +1003,15 @@ span {
             .IFSM h2 {
                 font-size: 110%;
             }
-            .Nannon h1 {
-                font-size: 290%;
+            .SIE h1 {
+                font-size: 220%;
                 top: 25%;
             }
-            .Nannon h2 {
+            .SIE h2 {
                 font-size: 110%;
                 top: 25%;
             }
-            .Nannonbutton {
+            .SIEbutton {
                 top: 42%;
             }
             .Moo h1 {
@@ -1025,7 +1032,7 @@ span {
             .contactName {
                 font-size: 200%;
             }
-            .IFSMbutton, .Nannonbutton, .Moobutton {
+            .IFSMbutton, .SIEbutton, .Moobutton {
                 font-size: 68%;
                 padding: .8em 3.4em;
                 padding-right: 6.7em;
@@ -1078,15 +1085,15 @@ span {
             .IFSM h2 {
                 font-size: 150%;
             }
-            .Nannon h1 {
-                font-size: 340%;
+            .SIE h1 {
+                font-size: 270%;
                 top: 40%;
             }
-            .Nannon h2 {
-                font-size: 160%;
+            .SIE h2 {
+                font-size: 150%;
                 top: 40%;
             }
-            .Nannonbutton {
+            .SIEbutton {
                 top: 62%;
             }
             .Moo h1 {
@@ -1107,7 +1114,7 @@ span {
             .contactName {
                 font-size: 280%;
             }
-            .IFSMbutton, .Nannonbutton, .Moobutton {
+            .IFSMbutton, .SIEbutton, .Moobutton {
                 font-size: 74%;
                 padding: 1.0em 3.7em;
                 padding-right: 7.0em;
@@ -1160,15 +1167,15 @@ span {
             .IFSM h2 {
                 font-size: 150%;
             }
-            .Nannon h1 {
-                font-size: 340%;
+            .SIE h1 {
+                font-size: 270%;
                 top: 40%;
             }
-            .Nannon h2 {
-                font-size: 160%;
+            .SIE h2 {
+                font-size: 150%;
                 top: 40%;
             }
-            .Nannonbutton {
+            .SIEbutton {
                 top: 62%;
             }
             .Moo h1 {
@@ -1189,7 +1196,7 @@ span {
             .contactName {
                 font-size: 280%;
             }
-            .IFSMbutton, .Nannonbutton, .Moobutton {
+            .IFSMbutton, .SIEbutton, .Moobutton {
                 font-size: 74%;
                 padding: 1.0em 3.7em;
                 padding-right: 7.0em;
@@ -1242,15 +1249,15 @@ span {
             .IFSM h2 {
                 font-size: 165%;
             }
-            .Nannon h1 {
-                font-size: 435%;
+            .SIE h1 {
+                font-size: 330%;
                 top: 40%;
             }
-            .Nannon h2 {
+            .SIE h2 {
                 font-size: 165%;
                 top: 40%;
             }
-            .Nannonbutton {
+            .SIEbutton {
                 top: 62%;
             }
             .Moo h1 {
@@ -1271,7 +1278,7 @@ span {
             .contactName {
                 font-size: 300%;
             }
-            .IFSMbutton, .Nannonbutton, .Moobutton {
+            .IFSMbutton, .SIEbutton, .Moobutton {
                 font-size: 74%;
                 padding: 1.0em 3.7em;
                 padding-right: 7.0em;
@@ -1398,16 +1405,16 @@ span {
         width: 50%;
         float: right;
     }
-    .Nannon {
-        background-image: url("./../../Assets/images/n9.jpg");
+    .SIE {
+        background-image: url("./../../Assets/images/playstation.jpg");
     }
-    .Nannon h1 {
+    .SIE h1 {
         top: 25%;
     }
-    .Nannon h2 {
+    .SIE h2 {
         top: 25%;
     }
-    .Nannonbutton {
+    .SIEbutton {
         top: 42%;
     }
     .ContactLeft {
@@ -1430,7 +1437,7 @@ span {
         .contactInfo {
             font-size: 80%;
         }
-        .IFSMbutton, .Nannonbutton, .Moobutton {
+        .IFSMbutton, .SIEbutton, .Moobutton {
             font-size: 60%;
             padding: .7em 3.0em;
             padding-right: 6.0em;
@@ -1472,13 +1479,13 @@ span {
             font-size: 200%;
         }
         .IFSM h2 {
-            font-size: 100%;
+            font-size: 120%;
         }
-        .Nannon h1 {
-            font-size: 310%;
+        .SIE h1 {
+            font-size: 240%;
         }
-        .Nannon h2 {
-            font-size: 100%;
+        .SIE h2 {
+            font-size: 130%;
         }
         .Moo h1 {
             font-size: 420%;
@@ -1519,7 +1526,7 @@ span {
             .contactInfo {
                 font-size: 140%;
             }
-            .IFSMbutton, .Nannonbutton, .Moobutton {
+            .IFSMbutton, .SIEbutton, .Moobutton {
                 font-size: 88%;
                 padding: 1.5em 6.0em;
                 padding-right: 9.0em;
@@ -1645,13 +1652,13 @@ span {
             .IFSM h2 {
                 font-size: 190%;
             }
-            .Nannon {
-                background-color: #0F5F16;
+            .SIE {
+                background-color: black;
             }
-            .Nannon h1 {
-                font-size: 500%;
+            .SIE h1 {
+                font-size: 400%;
             }
-            .Nannon h2 {
+            .SIE h2 {
                 font-size: 190%;
             }
             .Moo h1 {
@@ -1703,7 +1710,7 @@ span {
         .contactInfo {
             font-size: 90%;
         }
-        .IFSMbutton, .Nannonbutton, .Moobutton {
+        .IFSMbutton, .SIEbutton, .Moobutton {
             font-size: 68%;
             padding: .8em 3.4em;
             padding-right: 6.7em;
@@ -1759,13 +1766,13 @@ span {
         .IFSM h2 {
             font-size: 120%;
         }
-        .Nannon {
-            background-image: url("./../../Assets/images/n6.jpg");
+        .SIE {
+            background-image: url("./../../Assets/images/playstation.jpg");
         }
-        .Nannon h1 {
-            font-size: 370%;
+        .SIE h1 {
+            font-size: 250%;
         }
-        .Nannon h2 {
+        .SIE h2 {
             font-size: 122%;
         }
         .Moo h1 {
@@ -1809,7 +1816,7 @@ span {
         .contactInfo {
             font-size: 90%;
         }
-        .IFSMbutton, .Nannonbutton, .Moobutton {
+        .IFSMbutton, .SIEbutton, .Moobutton {
             font-size: 68%;
             padding: .8em 3.4em;
             padding-right: 6.7em;
@@ -1865,11 +1872,11 @@ span {
         .IFSM h2 {
             font-size: 120%;
         }
-        .Nannon h1 {
-            font-size: 370%;
+        .SIE h1 {
+            font-size: 290%;
         }
-        .Nannon h2 {
-            font-size: 120%;
+        .SIE h2 {
+            font-size: 140%;
         }
         .Moo h1 {
             font-size: 470%;
@@ -1931,7 +1938,7 @@ span {
         .contactInfo {
             font-size: 90%;
         }
-        .IFSMbutton, .Nannonbutton, .Moobutton {
+        .IFSMbutton, .SIEbutton, .Moobutton {
             font-size: 68%;
             padding: .8em 3.4em;
             padding-right: 6.7em;
@@ -1987,11 +1994,11 @@ span {
         .IFSM h2 {
             font-size: 120%;
         }
-        .Nannon h1 {
-            font-size: 370%;
+        .SIE h1 {
+            font-size: 300%;
         }
-        .Nannon h2 {
-            font-size: 120%;
+        .SIE h2 {
+            font-size: 140%;
         }
         .Moo h1 {
             font-size: 470%;
@@ -2046,7 +2053,7 @@ span {
         .contactInfo {
             font-size: 100%;
         }
-        .IFSMbutton, .Nannonbutton, .Moobutton {
+        .IFSMbutton, .SIEbutton, .Moobutton {
             font-size: 72%;
             padding: 1em 3.8em;
             padding-right: 7em;
@@ -2102,10 +2109,10 @@ span {
         .IFSM h2 {
             font-size: 140%;
         }
-        .Nannon h1 {
-            font-size: 390%;
+        .SIE h1 {
+            font-size: 330%;
         }
-        .Nannon h2 {
+        .SIE h2 {
             font-size: 140%;
         }
         .Moo h1 {
@@ -2163,7 +2170,7 @@ span {
         .contactInfo {
             font-size: 100%;
         }
-        .IFSMbutton, .Nannonbutton, .Moobutton {
+        .IFSMbutton, .SIEbutton, .Moobutton {
             font-size: 72%;
             padding: 1em 3.8em;
             padding-right: 7em;
@@ -2205,7 +2212,10 @@ span {
             font-size: 75%;
         }
         .AboutQuote img {
-            width: 13%;
+            width: 10%;
+        }
+        .AboutQuote p {
+            font-size: 60%;
         }
         .projectLink {
             font-size: 40%;
@@ -2219,10 +2229,10 @@ span {
         .IFSM h2 {
             font-size: 140%;
         }
-        .Nannon h1 {
+        .SIE h1 {
             font-size: 390%;
         }
-        .Nannon h2 {
+        .SIE h2 {
             font-size: 140%;
         }
         .Moo h1 {
@@ -2304,7 +2314,7 @@ span {
         .contactInfo {
             font-size: 130%;
         }
-        .IFSMbutton, .Nannonbutton, .Moobutton {
+        .IFSMbutton, .SIEbutton, .Moobutton {
             font-size: 80%;
             padding: 1.3em 4.2em;
             padding-right: 8em;
@@ -2360,10 +2370,10 @@ span {
         .IFSM h2 {
             font-size: 160%;
         }
-        .Nannon h1 {
-            font-size: 420%;
+        .SIE h1 {
+            font-size: 390%;
         }
-        .Nannon h2 {
+        .SIE h2 {
             font-size: 160%;
         }
         .Moo h1 {
@@ -2427,7 +2437,7 @@ span {
         .contactInfo {
             font-size: 130%;
         }
-        .IFSMbutton, .Nannonbutton, .Moobutton {
+        .IFSMbutton, .SIEbutton, .Moobutton {
             font-size: 80%;
             padding: 1.3em 4.2em;
             padding-right: 8em;
@@ -2483,11 +2493,11 @@ span {
         .IFSM h2 {
             font-size: 160%;
         }
-        .Nannon h1 {
-            font-size: 420%;
+        .SIE h1 {
+            font-size: 390%;
         }
-        .Nannon h2 {
-            font-size: 160%;
+        .SIE h2 {
+            font-size: 170%;
         }
         .Moo h1 {
             font-size: 520%;

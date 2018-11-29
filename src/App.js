@@ -4,6 +4,7 @@ import Home from './components/pages/home';
 import Moo from './components/pages/moo';
 import IFSM from './components/pages/ifsm';
 import Nannon from './components/pages/nannon';
+import SIE from './components/pages/sie';
 
 import './main.css';
 
@@ -21,6 +22,7 @@ class App extends Component {
       <Route exact path='/moo' component={Moo} />
       <Route exact path='/ifsm' component={IFSM} />
       <Route exact path='/nannon' component={Nannon} />
+      <Route exact path='/sie' component={SIE} />
       </div>
       </Router>
     );

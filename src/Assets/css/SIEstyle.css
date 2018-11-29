@@ -1,0 +1,29 @@
+/* COMMON IN ALL RESOLUTIONS -- DEFAULT TEMPLATE */
+
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.SIEPage {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: #4871F9;
+    display: flex;
+}
+
+.mainText {
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    font-size: 300%;
+}

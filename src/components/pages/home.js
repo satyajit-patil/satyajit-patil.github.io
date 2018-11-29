@@ -7,6 +7,7 @@ import aboutPenta from './../../Assets/images/diamond4.jpg';
 import motivationFist from './../../Assets/images/fist.png';
 import contactEmail from './../../Assets/images/email1.png';
 import contactLinkedIn from './../../Assets/images/ln1.png';
+import contactGitHub from './../../Assets/images/contactGitHub.svg';
 
 import {
     Link
@@ -71,10 +72,10 @@ class Home extends Component {
                         <div id="about" class="AboutRight">
                             <div class="AboutRightWrapper">
                                 <div class="statement">
-                                    <p>I am a software developer and designer studying at the University of Wisconsin Madison.</p>
+                                    <p>I am a software engineer studying at the University of Wisconsin Madison.</p>
                                 </div>
                                 <div class="objective">
-                                    <p>I am seeking a Software Engineering Internship position.</p>
+                                    <p>I am seeking a full-time position.</p>
                                 </div>
                                 <div class="UWM">
                                     <div class="UWMHeader">
@@ -87,7 +88,7 @@ class Home extends Component {
                                         <p>Madison, Wisconsin</p>
                                     </div>
                                     <div class="UWMBody">
-                                        <p>My last two years at UWM has presented unprecedented scale and diversity of opportunity. Classes with phenomenal professors introduced me to the computing industry and adjusted my worldview. My experience with the <a href="https://mcburney.wisc.edu/" target="_blank" rel="noopener noreferrer">McBurney Disability Resource Center </a> showed me how important empathetic leadership can be when put in the appropriate context. My fast-paced major and involvement in campus-wide events validated my ideal that quality stems from attention to detail. </p>
+                                        <p>My last three years at UWM has presented unprecedented scale and diversity of opportunity. Classes with phenomenal professors introduced me to the computing industry and adjusted my worldview. My experience with the <a href="https://mcburney.wisc.edu/" target="_blank" rel="noopener noreferrer">McBurney Disability Resource Center </a> showed me how important empathetic leadership can be when put in the appropriate context. My fast-paced major and involvement in campus-wide events validated my ideal that quality stems from attention to detail. </p>
                                     </div>
                                     <div class="UWMQuote">
                                         <p>UWM is showing me what I love to do, gifting me with a love for learning, and surrounding me with inspirational peers and professors. </p>
@@ -112,15 +113,15 @@ class Home extends Component {
                                 </div>
                                 <div class="Hobbies">
                                     <div class="HobbiesHeader">
-                                        <p>If I wasn’t coding, I would most likely be</p>
+                                        <p>In my free time, I would most likely be</p>
                                     </div>
                                     <div class="HobbiesBody">
-                                        <p>Drawing or Playing a Sport (Soccer, Golf, Badminton, Tennis, Cricket)</p>
+                                        <p>playing soccer, working on a personal project, travelling, or watching Netflix</p>
                                     </div>
                                 </div>
                                 <div class="AboutQuote">
                                     <img src={motivationFist} alt="Motivation Fist"/>
-                                    <p>My accomplishments have materialized through hard work. To achieve what I want to achieve, I do not need to be talented, I need to be obsessed.</p>
+                                    <p>I am currently developing a responsive keyboard that may reduce typographical errors and improve typing speed.</p>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +132,7 @@ class Home extends Component {
                             <div class="WorkLeftHead">
                                 <h1 class="leftHeaders">Work</h1>
                                 <div class="projectLink">
-                                    <h1> <a onClick={this.automatedScrolling('IFSM')}>IFSM</a>  /  <a onClick={this.automatedScrolling('Nannon')}>Nannon</a>  /  <a onClick={this.automatedScrolling('Moo')}>Moo</a> </h1>
+                                    <h1> <a onClick={this.automatedScrolling('SIE')}>SIE</a>  / <a onClick={this.automatedScrolling('IFSM')}>IFSM</a>  /  <a onClick={this.automatedScrolling('Moo')}>Moo</a> </h1>
                                 </div>
                                 <div class="workLink">
                                     <h1> <a onClick={this.automatedScrolling('about')}>About</a>  /  <a onClick={this.automatedScrolling('contact')}>Contact</a> </h1>
@@ -139,21 +140,20 @@ class Home extends Component {
                             </div>
                         </div>
                         <div id="work" class="WorkRight">
+                            <div id="SIE" class="SIE">
+                                <h1>Sony Interactive Entertainment</h1>
+                                <h2>Software Engineer</h2>
+                                <div class="SIEBP">
+                                    <Link to="/sie" class="SIEbutton">Read more</Link>
+                                </div>
+                            </div>
                             <div id="IFSM" class="IFSM">
-                                <h1>Integrated Farm System Model</h1>
-                                <h2>United States Department of Agriculture</h2>
+                                <h1>United States Department of Agriculture</h1>
+                                <h2>Programmer</h2>
                                 <div class="IFSMBP">
                                     <Link class="IFSMbutton" to="/ifsm">Read more</Link>
                                 </div>
                             </div>
-                            <div id="Nannon" class="Nannon">
-                                <h1>Nannon</h1>
-                                <h2>Nano Backgammon for Machine Learning Research</h2>
-                                <div class="NannonBP">
-                                    <Link to="/nannon" class="Nannonbutton">Read more</Link>
-                                </div>
-                            </div>
-
                             <div id="Moo" class="Moo">
                                 <h1>Moo</h1>
                                 <h2>Programming Language</h2>
@@ -174,11 +174,12 @@ class Home extends Component {
                         </div>
                         <div id="contact" class="ContactRight">
                             <div class="contactStatement">
-                                <p>If you want to collaborate on developing or designing software projects – you are welcome to contact me.</p>
+                                <p>If you want to collaborate on developing or designing software projects, you are welcome to contact me.</p>
                             </div>
                             <div class="logos">
-                                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/satyajit-patil-72bb64113/"> <img class="linkedin" src={contactLinkedIn} alt="LinkedIn"/></a>
-                                <a href="mailto:spatil5@wisc.edu"><img class="email" src={contactEmail} alt="GMail"/></a>
+                                <a class="linkedin" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/satyajit-patil-72bb64113/"> <img src={contactLinkedIn} alt="LinkedIn"/></a>
+                                <a class="email" href="mailto:spatil5@wisc.edu"><img src={contactEmail} alt="GMail"/></a>
+                                <a class="github" target="_blank" rel="noopener noreferrer" href="https://github.com/satyajit-patil"> <img src={contactGitHub} alt="GitHub"/></a>
                             </div>
                             <div class="contactName">
                                 <p>Satyajit Patil</p>
